@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 我的app
     'gallery.apps.GalleryConfig',
+    'blog',
+
 
 ]
 
