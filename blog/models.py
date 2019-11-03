@@ -9,3 +9,6 @@ class Blog(models.Model):
     text=models.TextField(default='正文')
     def __str__(self):
         return self.title
+
+    def short_text(self):
+        return self.text[:60] + '...'
