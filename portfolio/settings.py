@@ -25,7 +25,7 @@ SECRET_KEY = 'mectnax#c&=m=$xsksds=kj*ewm_4#5sk#^eq&ru!sb5=qvk7*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
